@@ -83,7 +83,9 @@ python3 reconkit.py scan 10.10.0.20 -p 1-10000
 python3 reconkit.py headers http://10.10.0.20:3000/
 python3 -m pytest -q
 ```
-
+**Kết quả chạy thực tế trong lab:**
+![ReconKit kiểm tra HTTP security header của Juice Shop](images/reconkit-headers.png)
+![Kiểm tra lab: Nmap thấy Juice Shop (3000) và DVWA (8080)](images/lab-check.png)
 Công cụ **từ chối quét IP công cộng** trừ khi người dùng xác nhận `--authorized`.
 
 ## Tác giả
